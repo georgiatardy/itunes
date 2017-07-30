@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>iTunes Music Search</title>
-    <link rel="stylesheet" href="styles.css">
 
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>iTunes Music Search</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
 
-  </body>
+<body>
+  <div class="container">
+
+    <!-- ============Main Title=========== -->
+    <header>
+      <h1>Looking for Music? Search Here!</h1>
+    </header>
+
+<!-- =============Audio Player Controller========= -->
+    <section class="Audio">
+      <audio class="audioplayer" controls="controls" src=""></audio>
+    </section>
+<!-- ===========Music Search Form========== -->
+    <section class="search">
+      <form class="searchform">
+        <h2>Search For Your Fave Music!</h2>
+        <input type="search" id="input" value="">
+        <button type="button" id="submit" name="button">Start Search</button>
+        <button type="button" id="clear" name="button">Search Again</button>
+      </form>
+    </section>
+
+    <section id="results"></section>
+
+  </div>
+<!-- ====JS link========= -->
+<script src="main.js"></script>
+</body>
+
 </html>

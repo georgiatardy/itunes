@@ -1,11 +1,26 @@
 html{
   width: auto;
-  background: blue;
+  background: #45652D;
 }
 
+h1{
+  color: white;
+}
 
 h2{
   text-align: center;
+  color: white;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+h4{
+  font-size: 10px;
 }
 
 header{
@@ -23,6 +38,7 @@ header{
 
 #results{
   display: flex;
-  flex-flow: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
 
 }

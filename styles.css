@@ -1,0 +1,28 @@
+html{
+  width: auto;
+  background: blue;
+}
+
+
+h2{
+  text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.Audio{
+  display: flex;
+  justify-content: center;
+}
+.search{
+  text-align: center;
+}
+
+#results{
+  display: flex;
+  flex-flow: wrap;
+
+}

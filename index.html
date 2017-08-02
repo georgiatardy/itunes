@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>iTunes Music Search</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="container">
+  <div class="wrapper">
 
 <!-- =================Main Title================ -->
     <header>
@@ -16,23 +16,24 @@
     </header>
 
 <!-- =============Audio Player Controller========= -->
-    <section class="Audio">
-      <audio class="audioplayer" controls="controls" src=""></audio>
-    </section>
+    <div class="Audio">
+      <audio id="audioplayer" controls="controls" src=""></audio>
+    </div>
 <!-- ===========Music Search Form========== -->
-    <section class="search">
+    <div class="search">
       <form class="searchform">
         <h2>Search For Your Fave Music!</h2>
         <input type="search" id="input" value="">
         <button type="button" id="submit" name="button">Start Search</button>
         <button type="button" id="clear" name="button">Search Again</button>
       </form>
-    </section>
+    </div>
 
-    <section id="results"></section>
+    <div id="results">
 
-  </div>
-<!-- ====JS link========= -->
+    </div>
+
+  <!-- ====JS link========= -->
 <script src="main.js"></script>
 </body>
 
